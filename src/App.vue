@@ -75,7 +75,7 @@ function nextTiltle(title:string) {
   return newTitle;
 };
 
-let timer: NodeJS.Timeout;
+let timer: number;
 
 function timerVideo() {
   formData.videoUserWatches++
