@@ -3,6 +3,6 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './lessons_player/',
+  base: 'https://kalmykov-mykhailo.github.io/lessons_player/',
   plugins: [vue()],
 })
